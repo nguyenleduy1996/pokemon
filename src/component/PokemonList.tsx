@@ -21,6 +21,9 @@ const PokemonList:React.FC<Props> = (props) => {
        <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
+        id={id}
+        name= {name}
+        image= {image}
       />
     </div>
   )

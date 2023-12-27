@@ -25,6 +25,8 @@ function App() {
             setListPokemon((p) => [...p, poke.data])
             setLoading(false)
             console.log("hehe")
+            console.log("hehe")
+            console.log("hehe")
         })
     }
     getPokemon()

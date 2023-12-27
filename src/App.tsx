@@ -27,6 +27,7 @@ function App() {
             console.log("hehe")
             console.log("hehe")
             console.log("hehe")
+            console.log("TOoi code o day")
         })
     }
     getPokemon()

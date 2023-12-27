@@ -24,6 +24,9 @@ function App() {
             const poke = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`)
             setListPokemon((p) => [...p, poke.data])
             setLoading(false)
+            console.log("hehe")
+            console.log("hehe")
+            console.log("hehe")
             console.log("TOoi code o day")
         })
     }
